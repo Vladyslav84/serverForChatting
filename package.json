@@ -48,5 +48,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vladyslav84/serverForChatting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vladyslav84/serverForChatting/issues"
+  },
+  "homepage": "https://github.com/Vladyslav84/serverForChatting#readme"
 }
