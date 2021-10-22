@@ -37,8 +37,10 @@ io.on('connection', (client) => {
     
 });
 
-http.listen(5000, () => {
-    console.log('port 5000 started');
-});
+const PORT = process.env.PORT || 5000
+
+http.listen(PORT, () => {
+  console.log(`Мы стартовали на порту ${PORT}`)
+})
 
 
